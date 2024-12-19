@@ -1,7 +1,11 @@
+import Hero from "./sections/Hero";
+
 function App() {
   return (
     <>
-      <main></main>
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }
