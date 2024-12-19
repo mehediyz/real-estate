@@ -18,6 +18,33 @@
   .h1 {
     @apply text-6xl font-medium leading-tight;
   }
+  .h2 {
+    @apply text-[40px] font-medium;
+  }
+  .h3 {
+    @apply text-[21px] font-medium;
+  }
+  .h4 {
+    @apply text-[19px] font-medium;
+  }
+
+  .p1 {
+    @apply text-[17px];
+  }
+  .p2 {
+    @apply text-[16px];
+  }
+  .p3 {
+    @apply text-[15px];
+  }
+
+  .padding-t {
+    @apply pt-24;
+  }
+
+  .padding-b {
+    @apply pb-24;
+  }
 }
 
 * {
