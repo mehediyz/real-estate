@@ -6,6 +6,7 @@ import HowItWorks from "./sections/HowItWorks";
 import OurMission from "./sections/OurMission";
 import OurProperties from "./sections/OurProperties";
 import RecentProperties from "./sections/RecentProperties";
+import WhyUs from "./sections/WhyUs";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <RecentProperties />
         <HowItWorks />
         <CallToAction />
+        <WhyUs />
       </main>
     </>
   );
