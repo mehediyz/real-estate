@@ -31,6 +31,7 @@ const Button = ({ icon, children, href, onClick, classnames, variant }) => {
         variant == "accent" &&
           "bg-accent-1 text-white border-none hover:bg-accent-2"
       )}
+      onClick={onClick}
     >
       <Inner />
     </button>
