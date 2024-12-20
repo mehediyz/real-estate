@@ -2,7 +2,7 @@ import Button from "../components/Button";
 
 const CallToAction = () => {
   return (
-    <div className="bg-[url('/images/cto.png')] w-full h-[760px] bg-cover bg-center">
+    <div className="bg-[url('/images/cto.png')] px-2 w-full h-[760px] bg-cover bg-center">
       <div className="flex flex-col items-center justify-center gap-8 h-full">
         <h1 className="h1 text-center">
           Discover a place you'll

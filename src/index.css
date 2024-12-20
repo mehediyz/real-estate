@@ -16,10 +16,10 @@
 
 @layer utilities {
   .h1 {
-    @apply text-6xl font-medium leading-tight;
+    @apply text-4xl md:text-5xl lg:text-6xl font-medium !leading-snug;
   }
   .h2 {
-    @apply text-[40px] font-medium leading-tight;
+    @apply text-3xl md:text-4xl lg:text-[40px] font-medium !leading-snug;
   }
   .h3 {
     @apply text-[21px] font-medium leading-tight;
@@ -52,4 +52,17 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
 }

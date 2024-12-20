@@ -37,9 +37,9 @@ const Footer = () => {
 
         {/* Middle */}
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-8 py-12 p3">
+        <div className="grid md:justify-items-start grid-cols-1 lg:grid-cols-4 xl:grid-cols-6 gap-8 px-4 py-12 p3">
           {/* 1 */}
-          <div className="flex flex-col gap-4 col-span-2 lg:col-span-2 xl:col-span-2 w-[75%]">
+          <div className="flex flex-col gap-4 col-span-1 lg:col-span-2 w-full lg:w-[75%]">
             <h4 className="h4 text-white/70">Subscribe</h4>
             <div className="flex p3">
               <input
@@ -90,7 +90,7 @@ const Footer = () => {
             </ul>
           </div>
           {/* App */}
-          <div className="space-y-4 lg:col-span-2 xl:col-span-1">
+          <div className="space-y-4 col-span-1 lg:col-span-2 xl:col-span-1">
             <h4 className="h4 text-white/70">Get the app</h4>
             {/*  */}
             <a

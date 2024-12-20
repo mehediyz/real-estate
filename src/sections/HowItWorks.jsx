@@ -2,11 +2,11 @@ import { howItWorks } from "../constants";
 
 const HowItWorks = () => {
   return (
-    <section className="container mx-auto padding-t padding-b">
-      <h2 className="h2 text-center ">How It works? Find a perfect home</h2>
+    <section className="container mx-auto padding-b">
+      <h2 className="h2 text-center px-2">How It works? Find a perfect home</h2>
       <p className="text-center py-4">Lorem ipsum dolor sit amet</p>
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center gap-4 mt-6">
-        <div className="max-w-[500px] flex flex-col gap-4 lg:gap-8 xl:gap-12 items-start order-2 lg:order-1 pl-6 ">
+        <div className="max-w-[550px] flex flex-col gap-4 lg:gap-8 xl:gap-12 items-start order-2 lg:order-1 px-6 ">
           {howItWorks.map((item, idx) => (
             <div
               key={idx}

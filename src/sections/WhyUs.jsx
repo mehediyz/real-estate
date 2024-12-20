@@ -17,16 +17,16 @@ const WhyUs = () => {
             </div>
           </div>
         </div>
-        <div className="space-y-4 order-1 lg:order-2">
+        <div className="space-y-4 px-2 order-1 lg:order-2">
           <h2 className="h2 text-center lg:text-left">
             Why You Should Work <br /> With Us
           </h2>
-          <p>
+          <p className="text-center sm:text-left">
             Pellentesque egestas elementum egestas faucibus sem. Velit nunc
             egestas ut morbi. Leo diam diam nibh eget fermentum massa pretium.
             Mi mauris nulla ac dictum ut mauris non.
           </p>
-          <div className="flex gap-8 py-4">
+          <div className="flex gap-4 md:gap-8 py-4">
             <div className="space-y-2 border-l-4 border-transparent hover:border-accent-1 hover:pl-2 transition-all duration-200 ">
               <h3 className="h4">Buy or Rent Homes</h3>
               <p className="p3">
@@ -41,13 +41,15 @@ const WhyUs = () => {
               </p>
             </div>
           </div>
-          <Button
-            variant={"accent"}
-            icon={"/images/icons/arrow.svg"}
-            classnames={"rounded-xl"}
-          >
-            Learn More
-          </Button>
+          <div className="text-center md:text-left">
+            <Button
+              variant={"accent"}
+              icon={"/images/icons/arrow.svg"}
+              classnames={"rounded-xl"}
+            >
+              Learn More
+            </Button>
+          </div>
         </div>
       </div>
     </section>
