@@ -135,3 +135,24 @@ export const propertyData = [
     imgUrl: "/images/9.png",
   },
 ];
+
+export const howItWorks = [
+  {
+    title: "Find Real Estate",
+    description:
+      "Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco Lorem ipsum dolor sit amet, consectetur adipiscing",
+    icon: "/images/icons/find.svg",
+  },
+  {
+    title: "Meet Relator",
+    description:
+      "Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco Lorem ipsum dolor sit amet, consectetur adipiscing",
+    icon: "/images/icons/meet.svg",
+  },
+  {
+    title: "Take The Keys",
+    description:
+      "Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco Lorem ipsum dolor sit amet, consectetur adipiscing",
+    icon: "/images/icons/find.svg",
+  },
+];
