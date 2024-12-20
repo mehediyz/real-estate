@@ -4,7 +4,7 @@ import { propertyData } from "../constants";
 const RecentProperties = () => {
   return (
     <>
-      <section className="container mx-auto padding-b">
+      <section className="container mx-auto padding-t padding-b">
         <h2 className="h2 text-center px-2">Recent Properties for Rent</h2>
         <p className="text-center py-4">Lorem ipsum dolor sit amet</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-6">
