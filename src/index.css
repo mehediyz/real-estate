@@ -25,7 +25,7 @@
     @apply text-[21px] font-medium leading-tight;
   }
   .h4 {
-    @apply text-[19px] font-medium;
+    @apply text-[18px] sm:text-[19px] font-medium;
   }
 
   .p1 {

@@ -19,7 +19,7 @@ const HowItWorks = () => {
           ))}
         </div>
 
-        <div className="bg-[url('/images/h30.png')] bg-cover bg-center rounded-xl aspect-square w-full order-1 lg:order-2"></div>
+        <div className="bg-[url('/images/h30.png')] bg-cover bg-center rounded-none sm:rounded-xl aspect-square w-full order-1 lg:order-2"></div>
       </div>
     </section>
   );

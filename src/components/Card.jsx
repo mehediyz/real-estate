@@ -3,7 +3,7 @@ const Card = ({ variant, title, subtitle, imgUrl }) => {
     <>
       {variant == "properties" && (
         <div
-          className={`relative p-6 border rounded-xl  overflow-hidden bg-cover bg-center aspect-[3/4] hover:shadow-md transition-all duration-500 cursor-pointer group hover:text-white`}
+          className={`relative p-4 md:p-6 border rounded-xl  overflow-hidden bg-cover bg-center aspect-[3/4] hover:shadow-md transition-all duration-500 cursor-pointer group hover:text-white`}
           style={{ backgroundImage: `url('${imgUrl}')` }}
         >
           {/* Overlay */}
@@ -20,7 +20,7 @@ const Card = ({ variant, title, subtitle, imgUrl }) => {
       {variant == "cities" && (
         <div className="">
           <div
-            className={`relative p-6 border rounded-xl  overflow-hidden bg-cover bg-center aspect-[3/4] hover:shadow-md transition-all duration-500 cursor-pointer group hover:text-white`}
+            className={`relative p-4 md:p-6 border rounded-xl  overflow-hidden bg-cover bg-center aspect-[3/4] hover:shadow-md transition-all duration-500 cursor-pointer group hover:text-white`}
             style={{ backgroundImage: `url('${imgUrl}')` }}
           >
             {/* Overlay */}

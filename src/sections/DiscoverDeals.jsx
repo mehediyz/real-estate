@@ -15,7 +15,7 @@ const DiscoverDeals = () => {
     <section className="container mx-auto padding-b">
       <h2 className="h2 text-center px-2">Discover Our Best Deals</h2>
       <p className="text-center">Lorem ipsum dolor sit amet</p>
-      <div className="mt-6">
+      <div className="mt-6 px-2">
         <Swiper
           spaceBetween={30}
           pagination={{

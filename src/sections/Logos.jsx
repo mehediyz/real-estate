@@ -1,7 +1,7 @@
 const Logos = () => {
   return (
-    <section className="container mx-auto space-y-6 py-12">
-      <p className="p3 text-center">
+    <section className="container mx-auto space-y-6 pb-24">
+      <p className="p3 text-center text-black/70">
         Thousands of the world's leading companies trust Space
       </p>
       <div className="relative overflow-hidden">
