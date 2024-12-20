@@ -15,9 +15,10 @@ const Button = ({ icon, children, href, onClick, classnames, variant }) => {
     <a
       href={href}
       className={clsx(
-        "p-0.5 rounded-full border border-grey-3",
+        "p-2 rounded-full border border-grey-3 hover:border-accent-1 transition-all duration-200",
         classnames,
-        variant == "accent" && "bg-accent-1 text-white border-none"
+        variant == "accent" &&
+          "bg-accent-1 text-white border-none hover:bg-accent-2"
       )}
     >
       <Inner />
@@ -25,7 +26,7 @@ const Button = ({ icon, children, href, onClick, classnames, variant }) => {
   ) : (
     <button
       className={clsx(
-        "p-0.5 rounded-full border border-grey-3 hover:border-accent-1 transition-all duration-200",
+        "p-2 rounded-full border border-grey-3 hover:border-accent-1 transition-all duration-200",
         classnames,
         variant == "accent" &&
           "bg-accent-1 text-white border-none hover:bg-accent-2"

@@ -1,3 +1,4 @@
+import CallToAction from "./sections/CallToAction";
 import DiscoverDeals from "./sections/DiscoverDeals";
 import ExploreCities from "./sections/ExploreCities";
 import Hero from "./sections/Hero";
@@ -17,6 +18,7 @@ function App() {
         <ExploreCities />
         <RecentProperties />
         <HowItWorks />
+        <CallToAction />
       </main>
     </>
   );
