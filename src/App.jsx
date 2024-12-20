@@ -1,6 +1,7 @@
 import CallToAction from "./sections/CallToAction";
 import DiscoverDeals from "./sections/DiscoverDeals";
 import ExploreCities from "./sections/ExploreCities";
+import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import HowItWorks from "./sections/HowItWorks";
 import Logos from "./sections/Logos";
@@ -23,6 +24,7 @@ function App() {
         <CallToAction />
         <WhyUs />
         <Logos />
+        <Footer />
       </main>
     </>
   );

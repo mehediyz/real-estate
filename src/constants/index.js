@@ -156,3 +156,13 @@ export const howItWorks = [
     icon: "/images/icons/find.svg",
   },
 ];
+
+export const quickLinks = [
+  { title: "About", href: "#" },
+  { title: "Contact", href: "#" },
+  { title: "FAQ's", href: "#" },
+  { title: "Blog", href: "#" },
+  { title: "Pricing Plans", href: "#" },
+  { title: "Privacy Policy", href: "#" },
+  { title: "Terms & Conditions", href: "#" },
+];
