@@ -9,6 +9,7 @@ const OurProperties = () => {
       <div className="grid grid-cols-5 gap-4 mt-6">
         {ourProperties.map((property) => (
           <Card
+            variant={"properties"}
             key={property.title}
             imgUrl={property.imgUrl}
             title={property.title}

@@ -6,6 +6,14 @@ export const ourProperties = [
   { title: "Office", count: "3 Properties", imgUrl: "/images/h35.png" },
 ];
 
+export const exploreCities = [
+  { title: "Miami", count: "2 Properties", imgUrl: "/images/h36.png" },
+  { title: "Florida", count: "10 Properties", imgUrl: "/images/h37.png" },
+  { title: "New York", count: "3 Properties", imgUrl: "/images/h38.png" },
+  { title: "Chicago", count: "5 Properties", imgUrl: "/images/h39.png" },
+  { title: "Los Angeles", count: "3 Properties", imgUrl: "/images/h310.png" },
+];
+
 export const ourMission = [
   {
     title: "Owned from properties transactions",
