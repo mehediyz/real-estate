@@ -108,7 +108,7 @@ export const propertyData = [
     address: "1020 Bloomingdale Ave",
     count: { bedroom: "4", bathroom: "2", area: "450" },
     price: ["$280,000"],
-    imgUrl: "/images/71.png",
+    imgUrl: "/images/7.png",
   },
   {
     id: 8,
@@ -132,6 +132,6 @@ export const propertyData = [
     address: "1020 Bloomingdale Ave",
     count: { bedroom: "4", bathroom: "2", area: "450" },
     price: ["$280,000"],
-    imgUrl: "/images/71.png",
+    imgUrl: "/images/9.png",
   },
 ];

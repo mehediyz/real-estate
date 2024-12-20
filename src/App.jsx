@@ -3,6 +3,7 @@ import ExploreCities from "./sections/ExploreCities";
 import Hero from "./sections/Hero";
 import OurMission from "./sections/OurMission";
 import OurProperties from "./sections/OurProperties";
+import RecentProperties from "./sections/RecentProperties";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <OurMission />
         <DiscoverDeals />
         <ExploreCities />
+        <RecentProperties />
       </main>
     </>
   );
